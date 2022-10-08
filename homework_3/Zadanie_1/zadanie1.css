@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin: 100px 100px;
+}
+
+table{
+    width: 60vw;
+    margin-top: 60px;
+    border: 1px solid black;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60vw;
+    height: 200px;
+}
+
+input{
+    width: 30vw;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+th{
+    background: rgb(134, 173, 236);
+    height: 30px;
+}
+
+td{
+    padding-left: 10px;
+    height: 30px;
+}
+
+tr:nth-child(odd){
+    background: rgb(167, 199, 251);
+}
+
+.missing-data{
+    border: 2px solid rgb(245, 47, 47);   
+}
+
